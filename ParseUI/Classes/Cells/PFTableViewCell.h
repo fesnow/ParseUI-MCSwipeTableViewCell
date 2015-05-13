@@ -23,6 +23,7 @@
 
 #import <ParseUI/ParseUIConstants.h>
 #import <ParseUI/PFImageView.h>
+#import <MCSwipeTableViewCell/MCSwipeTableViewCell.h>
 
 PFUI_ASSUME_NONNULL_BEGIN
 
@@ -32,7 +33,7 @@ PFUI_ASSUME_NONNULL_BEGIN
  When used in a <PFQueryTableViewController> - downloading and displaying of the remote images
  are automatically managed by the <PFQueryTableViewController>.
  */
-@interface PFTableViewCell : UITableViewCell
+@interface PFTableViewCell : MCSwipeTableViewCell
 
 /*!
  @abstract The imageView of the table view cell.

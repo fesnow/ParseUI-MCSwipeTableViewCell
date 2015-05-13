@@ -8,3 +8,4 @@ platform :ios, '7.0'
 
 pod 'Parse', '~> 1.7'
 pod 'ParseFacebookUtilsV4', '~> 1.7'
+pod 'MCSwipeTableViewCell', '~> 2.1'
